@@ -1,0 +1,14 @@
+Python 2.7.9 (default, Mar  1 2015, 12:57:24) 
+[GCC 4.9.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> >>> >>> >>> Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/jules/Documents/machine_learning/awalé/state.py", line 14
+    return [i for in in self.board] + str(player) + str(iter_from_start) + str(gain)
+                   ^
+SyntaxError: invalid syntax
+>>> str([1, 2, 3])
+'[1, 2, 3]'
+>>> [str(1), str(2)]
+['1', '2']
+>>> sum([str(1), str(2)])
